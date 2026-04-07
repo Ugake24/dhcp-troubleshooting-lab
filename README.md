@@ -24,12 +24,14 @@ Then, we check the client’s services and confirm that everything is working co
 <br />
 <br />
 Then, we go to the server side and check the services to verify if the DHCP service is running. We notice that it is down.
+We activate the service, and it is running again.
+<br/>
 <br/><br/>
 <img src="https://i.imgur.com/YSlLkxC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Configured a DHCP scope to dynamically assign IP addresses<br/>
-<img src="https://i.imgur.com/mwFT6DY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Finally, we use the command "ipconfig /renew" to obtain a new IP address from the DHCP server, and everything works properly.<br/><br/>
+<img src="https://i.imgur.com/FTcTHpH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
