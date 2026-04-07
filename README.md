@@ -23,8 +23,9 @@ Then, we check the client’s services and confirm that everything is working co
 <img src="https://i.imgur.com/670V8eo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Reducing lease time allows faster reassignment during testing.<br/>
-<img src="https://i.imgur.com/nzZR8r0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Then, we go to the server side and check the services to verify if the DHCP service is running. We notice that it is down.
+<br/><br/>
+<img src="https://i.imgur.com/YSlLkxC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Configured a DHCP scope to dynamically assign IP addresses<br/>
